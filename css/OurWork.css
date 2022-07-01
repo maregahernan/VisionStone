@@ -1,0 +1,288 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+#Our-work {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+}
+.Our-work-Container {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.OurWork-Title {
+  height: 10%;
+}
+
+.OurWork-gallery {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.OurWork-gallery-child {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.Border1 {
+  border-right: 2px solid #000000;
+}
+
+.OurWork-img {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.show {
+  display: none;
+}
+
+.OurWork-img img {
+  height: 85%;
+  width: 75%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.OurWork-img img:hover {
+  border-radius: 10px;
+  width: 77%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+.OurWork-img p {
+  margin-top: 20px;
+}
+
+.ImgShowTitle {
+  color: #000000;
+}
+.OurWork-ImgShow {
+  padding: 10px;
+  position: fixed;
+  z-index: 100;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in;
+  
+}
+.divimgL {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 10px;
+  text-align: center;
+}
+.divimgR {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.moves {
+  transform: translateX(0);
+}
+
+.OurWork-ImgShow p,
+h3,
+i {
+  color: #000000;
+}
+/* .OurWork-ImgShow h3{
+   width: 100%;
+   text-align: start;
+    
+} */
+.divimgRR {
+  height: 50%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.BorderB {
+  border-bottom: 1px solid #000000;
+}
+
+.ImgShowMaterial,
+.ImgShowDesc {
+  text-align: center;
+  font-size: 20px;
+}
+
+.fa-solid.fa-xmark {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 25px;
+  cursor: pointer;
+  user-select: none;
+}
+.ImgShowV1 {
+  height: 90%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+  .ImgShow {
+    height: 70%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .ImgShowMaterial,
+  .ImgShowDesc {
+    font-size: 15px;
+  }
+
+  .divimgRR {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .ImgShowMaterial,
+  .ImgShowDesc {
+    font-size: 12px;
+  }
+
+  .ImgShow {
+    height: 60%;
+  }
+  #Our-work {
+    height: 130vh;
+  }
+
+  .OurWork-img img {
+    width: 100%;
+  }
+
+  .Border1 {
+    border-right: none;
+  }
+
+  .OurWork-gallery-child {
+    margin: 10px;
+  }
+
+  .ImgShow {
+    height: 60%;
+    object-fit: cover;
+  }
+  .OurWork-ImgShow {
+    transform: translateX(-120%);
+  }
+  .moves {
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .ImgShow {
+    height: 90%;
+  }
+  .OurWork-ImgShow {
+    flex-direction: column;
+  }
+  .divimgL {
+    width: 100%;
+    height: 70%;
+    margin: 0;
+  }
+
+  .divimgRR {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #Our-work {
+    height: 230vh;
+  }
+
+  .OurWork-gallery {
+    flex-direction: column;
+  }
+  .OurWork-gallery-child {
+    width: 80%;
+  }
+  .OurWork-Title {
+    height: 8%;
+  }
+
+  .OurWork-ImgShow p,
+  h3 {
+    width: 100%;
+    text-align: center;
+  }
+  .OurWork-ImgShow {
+    transform: translateX(-120%);
+  }
+  .moves {
+    transform: translateX(0);
+  }
+
+  .ImgShow {
+    height: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .ImgShow {
+    height: 70%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ImgShow {
+    height: 60%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .ImgShow {
+    height: 55%;
+  }
+  .OurWork-ImgShow {
+    transform: translateX(-110%);
+  }
+  .moves {
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #materials{
+  width: 100%;
+  text-align: center;
+  }
+  
+  
+  .divContainer {
+    /* min-height: 100vh; */
+    font-size: 90%;
+  width: 100%;
+  box-sizing: border-box;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .divTitMat{
+    margin: 25px 0 50px 0;
+  }
+  
+  .acordeon {
+    width: 100%;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+  }
+  
+  .bloque {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+  }
+  
+   .h2 {
+    cursor: pointer;
+    height: 150px;
+    width: 700px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .h2Back1{
+    background-image: url(../img/materials/imgClick/img1.jpg);
+  }
+  .h2Back2{
+    background-image: url(../img/materials/imgClick/img2.jpg);
+  }
+  .h2Back3{
+    background-image: url(../img/materials/imgClick/img3.jpg);
+  }
+  .DivParr{
+   margin: 10px;
+   padding: 10px;
+   width: 50%;
+  }
+  
+  .DivimgGall{
+    cursor: pointer;
+    text-align: center;
+  }
+  .DivimgGall p{
+    margin: 0;
+    padding: 0;
+  }
+   .contenido {
+    height: 0;
+    padding: 0rem;
+    overflow: hidden;
+    color: #000000;
+    font-weight: bold;  
+  }
+  
+  
+  .acordeon .bloque.activo .contenido {
+    height: auto;
+    
+  }
+  
+  
+  .ImgGall{
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+  }
+  
+  .ImgsGallery{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .acordeon .contenido {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  .acordeon .bloque {
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+  .acordeon {
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+  .acordeon .ImgsGallery{
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+  .acordeon .DivimgGall{
+    -webkit-transition: all 1s ease;
+    transition: all 0.4s ease;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .h2 {
+      height: 100px;
+      width: 450px;
+      
+     
+    }
+    .DivParr{
+      text-align: center;
+      width: 90%;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .h2 {
+      height: 100px;
+      width: 350px;
+     
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .h2 {
+      height: 100px;
+      width: 300px;
+      
+    }
+  }
+  

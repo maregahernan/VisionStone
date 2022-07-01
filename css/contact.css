@@ -1,0 +1,405 @@
+#Contact{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #000000;
+}
+.ContactSendMail-tittle h3{
+  color: #000000;
+}
+
+.ContactTitle{
+  width: 100%;
+  height: 10%;
+  text-align: center;
+}
+
+.ContactContent{
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+
+.ContactSendMail , .ContactSocialMedia{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.ContactSendMail{
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ContactSendMail-tittle{
+  width: 100%;
+}
+
+.ContactSendMail-form{
+  width: 100%;
+  height: auto;
+  border: 1px solid #999999;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.ContactSendMail-form form{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.ContactInputs{
+  width: 100%;
+  height: auto;
+  display: flex;  
+  margin-bottom: 20px;
+  
+}
+.ContactInputsDiv{
+  width: 100%;
+  height: 250px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.ConctacInputData{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-direction: column;
+
+}
+.ContactInputsIn{
+  border: 1px solid #999999;
+  width: 100%;
+  height: 50px;
+  padding: 10px 0;
+  border-radius: 5px;
+  text-indent: 10px;
+  cursor: pointer;
+  transition: all .4s ease;
+}
+
+.ContactInputsIn:hover,.ConctacInputMessage textarea:hover{
+  font-weight: bold;
+  border-radius: 10px;
+}
+.ConctacInputMessage textarea{
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+  border-radius: 5px;
+  text-indent: 10px;  
+  resize: none;
+  transition: all .4s ease;
+  cursor: pointer;
+}
+
+.ContactSendFile{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ContactSendFileInput{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 10px;
+
+}
+
+.button{
+  width: 100%;
+  border-radius: 5px;
+  background-color: inherit;
+  padding: 5px;
+  border: 1px solid #999999;
+  transition: all  .2s ease;
+  cursor: pointer;
+}
+.button:hover{
+  border: 1px solid #00c3ff;
+  color:#00c3ff;
+  font-weight: bolder;
+
+}
+.ContactSendFileInput p{
+
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: small;
+}
+.ContactSendFileInput input{
+  display: none;
+}
+
+#nombre{
+  background-color: #05bff7;
+ padding: 15px 75px 15px 75px;
+ cursor: pointer;
+ color: #ffffff;
+ border-radius: 5px;
+ transition: all .3s ease;
+
+}
+
+#nombre:hover{
+  background-color: #00c3ff;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.ContactSocialMedia{
+  display: flex;
+  flex-direction: column;
+  
+}
+.ContactSocialMedia-Icon{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ContactIconRow{
+  width: 70%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ContactIconRowItems{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.TestRowContent{
+  justify-content: space-around;
+}
+.TestRow{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.IconItem{
+  padding: 10px;
+  text-align: center;
+}
+
+.IconItem p , .secondRowItems p{
+  padding: o;
+  margin: 0;
+}
+
+.ContactIconRowItems i{
+  border: 1px solid #000000;
+  font-size: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+.ContactIconRowItems i:hover{
+  color: #05bff7;
+  /* background-color: #05bff7; */
+  border: 1px solid #05bff7;
+}
+
+.secondRowItems p{
+  padding: o;
+  margin-left: 10px;
+  margin-top:0  ;
+}
+.ContactReview{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.child1{
+  height: 20%;
+  width: 100%;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  font-size: 20px;
+}
+.child1 i {
+  font-weight: bold;
+  height: 100%;
+}
+.childi{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child1 span{
+  text-decoration: underline ;
+  text-decoration-color: #FFD700 ;
+}
+.child2{
+  height:50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ContactReviewLink{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.GoogleImg{
+  width: 250px;
+  height: 100px;
+}
+.ContactReviewbutton , .ContactReviewImg{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  
+}
+ .ContactReviewImg{
+  justify-content: start;
+  align-items: center;
+  padding-left: 5px;
+  
+}
+
+.ContactReviewbutton{
+  justify-content: end;
+  align-items: center;
+  padding-right: 5px;
+}
+
+.ContactReviewbutton button{
+border: none;
+}
+.ContactReviewbutton a{
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  transition: all .3s ease;
+}
+.ContactReviewbutton a:hover{
+  font-weight: bold;
+  border-radius: 10px;
+}
+.ContactReviewImg a , img{
+  width: 150px;
+  height: 30px;
+}
+.child3{
+  height:20%;
+  width: 100%;
+  /* border: 1px solid #000000; */
+}
+
+.widthJS{
+  display: none;
+}
+
+/* @media screen and (max-width: 1500px) {
+  #Contact{
+    height: 150vh;
+  }
+
+
+  .ContactContent {
+    flex-direction: column;
+    
+  }
+} */
+
+
+
+@media screen and (max-width: 1000px) {
+  #Contact{
+    height: 150vh;
+  }
+
+
+  .ContactContent {
+    flex-direction: column;
+    
+  }
+}
+@media screen and (max-width: 700px) {
+  #Contact{
+    height: 300vh;
+  }
+  .ContactInputs , .ContactIconRow{
+  flex-wrap: wrap;
+  }
+
+  .IconItem{
+   width: 50%;
+   height: auto;
+   display: flex;
+  }
+
+
+  .Icon1{
+  
+    align-items: center;
+    justify-content: end;
+  }
+
+
+}
+@media screen and (max-width: 550px) {
+ 
+  .ContactSocialMedia-Icon , .ContactIconRow{
+    display:none;
+  }
+  .widthJS{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .secondRowItems{
+    flex-direction: column;
+  }
+  .secondRowItems p {
+    margin-top: 10px ;
+  }
+  .ContactReviewImg{
+    margin: 0;
+    padding: 0;
+  }
+
+}

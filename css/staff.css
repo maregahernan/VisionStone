@@ -1,0 +1,185 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+#staff {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+  margin-bottom: 100px;
+}
+.staffImg {
+  width: 30%;
+  height: 100%;
+  /* padding: 0 10px; */
+  box-sizing: content-box;
+}
+
+#SlowVideo{
+  filter: grayscale(100%);
+  /* width: 100%; */
+  height: 100%;
+}
+/* .staffImg img {
+  width: 100%;
+  height: 100%;
+} */
+
+.staffDesc {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.staffTitle {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+.staffH2 {
+  height: 35%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+/* .staffH2,
+h2 {
+  padding-top: 10px;
+} */
+
+.staffP {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.staffOw {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.staffOwImg {
+  width: 20%;
+  height: 100%;
+  margin: 5px;
+  border-radius: 10px;
+}
+.jhon {
+  background-image: url(../img/staff/john_kokkinis.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position-y: top;
+}
+.ana {
+  background-image: url(../img/staff/Anastasia\ kokkinis.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position-y: top;
+}
+.staffOwP {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.staffOwP,
+h3 {
+  color: #ffffff;
+  align-self: flex-start;
+}
+@media screen and (max-width: 1000px) {
+  .staffImg {
+    display: none;
+  }
+  .staffDesc {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  #staff {
+    height: 100vh;
+  }
+  .staffTitle {
+    height: 25%;
+  }
+  .staffH2{
+    margin-bottom: 10px;
+  }
+}
+
+
+@media screen and (max-width: 750px) {
+  .staffDesc {
+    width: 100%;
+  }
+  #staff {
+    height: 170vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #staff {
+    height: 220vh;
+  }
+
+  .staffOwImg {
+    width: 40%;
+  }
+  .staffOwP {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 500px) {
+  #staff {
+    height: 300vh;
+  }
+
+  .staffOwImg {
+    width: 100%;
+  }
+  .staffOwP {
+    width: 100%;
+  }
+  .staffOw {
+    flex-direction: column;
+  }
+
+  .staffTitle {   
+    height: 30%;
+  }
+  .staffH2 {
+    height: 10%;
+  }
+ 
+  .staffP { 
+    height: 90%;
+  }
+}
+@media screen and (max-width: 500px) {
+  #staff {
+    height: 340vh;
+  }
+}
