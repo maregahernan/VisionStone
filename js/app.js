@@ -21,6 +21,8 @@ const closeModal = document.querySelector('.fa-solid.fa-xmark')
 //OurWork Const
 
 
+
+
 menuNav.addEventListener('click',()=>{
     menuNav.classList.toggle('active')
 })
@@ -97,6 +99,7 @@ h2.forEach( ( cadaH2 , i )=>{
 // Sweet Alert
 
     function ShowAlert(){
+
         swal.fire({
             title: 'Want to see it in person?',
             text: "If you would like to view a slab in person please send us an email and we will arrange a meeting.",
@@ -104,6 +107,21 @@ h2.forEach( ( cadaH2 , i )=>{
             showCancelButton: true,
             confirmButtonColor: '#3085d6',
             confirmButtonText: "Great, let's have a meeting!"
+          }).then((result) => {
+            if (result.isConfirmed) {
+              location = "index.html#Contact"
+            }
+          })
+    }
+    function ShowAlert1(){
+
+        swal.fire({
+            title: 'WE HAVE MORE COLORS!',
+            text: "If you would like to see more colors, please send an email!",
+            icon: 'info',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            confirmButtonText: "Great, I will send a Email!"
           }).then((result) => {
             if (result.isConfirmed) {
               location = "index.html#Contact"

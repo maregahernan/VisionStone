@@ -191,16 +191,16 @@
   align-items: center;
   flex-direction: column;
 }
-.TestRowContent{
+/* .TestRowContent{
   justify-content: space-around;
-}
-.TestRow{
+} */
+/* .TestRow{
   width: 70%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 .IconItem{
   padding: 10px;
   text-align: center;
