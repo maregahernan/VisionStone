@@ -53,10 +53,10 @@ divImg.forEach(divImg=>{
             let varRuta       = divContainer[i].children[0].getAttribute('src');
             let varTitulo     = divContainer[i].children[1].innerHTML;
             let varDesc       = divContainer[i].children[2].innerHTML;
-            let varMateriales  = divContainer[i].children[3].innerHTML;
+            // let varMateriales  = divContainer[i].children[3].innerHTML;
 
             divContainerShow.children[1].children[1].setAttribute('src',varRuta);
-            divContainerShow.children[1].children[0].innerHTML=varTitulo       
+            // divContainerShow.children[1].children[0].innerHTML=varTitulo       
             // divContainerShow.children[2].children[0].children[0].innerHTML = varDesc;
             // divContainerShow.children[2].children[1].children[0].innerHTML = varMateriales;
 
